@@ -54,7 +54,7 @@ const Card = ({ name, population, region, capital, flag, onClick }: CardProps) =
 
     return (
         <Container onClick={onClick}>
-            <Flag src={flag} />
+            <Flag src={flag} alt={`${name} flag`}/>
             <Wrapper>
                 <Name>{name}</Name>
                 <Pair>

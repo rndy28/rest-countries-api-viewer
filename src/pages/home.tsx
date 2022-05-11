@@ -35,10 +35,6 @@ const Home = () => {
 
     }, []);
 
-    // useEffect(() => {
-    //     cachedCountries = newCountries.slice()
-    // }, [newCountries])
-
 
     if (countries.length === 0) return <Loader />;
 

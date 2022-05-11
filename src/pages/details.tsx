@@ -159,7 +159,7 @@ const Details = () => {
         <Container>
             <BackButton />
             <Article>
-                <Flag src={country.flags.svg} />
+                <Flag src={country.flags.svg} alt={`${country.name.common} flag`}/>
                 <Wrapper>
                     <Title>{country.name.common}</Title>
 

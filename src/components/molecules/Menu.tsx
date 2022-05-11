@@ -72,7 +72,7 @@ function Menu<T extends readonly any[]>({ selections, selected , onSelect}: Menu
 
     return (
         <Container role='menu'>
-            <SelectedItem onClick={() => toggle(null)} isActive={on}>
+            <SelectedItem onClick={() => toggle(null)} isActive={on} role='menuitem'>
                 <span>{selected ? selected : 'Filter by Region'}</span>
                 <IconChevronDown size={18} className='arrow-down' />
             </SelectedItem>

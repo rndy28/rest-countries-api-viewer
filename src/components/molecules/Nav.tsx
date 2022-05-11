@@ -3,7 +3,7 @@ import shared from 'components/shared';
 import styled from 'styled-components';
 
 
-const Container = styled.header`
+const Container = styled.div`
     display: grid;
     place-items: center;
     background-color: ${p => p.theme.elementBg};
