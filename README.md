@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/rndy28/Todo-app
-- Live Site URL: https://glittering-eclair-638645.netlify.app/
+- Solution URL: https://github.com/rndy28/rest-countries-api-viewer
+- Live Site URL: https://resplendent-sopapillas-0d45f4.netlify.app
 ### Built with/
 
 - ReactJS
